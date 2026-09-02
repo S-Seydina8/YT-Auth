@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Start YouTube Automation
+Comment=Run the YouTube Shorts automation pipeline in a terminal
+Exec="/PATH/TO/DIR/files/run_youtube_automation.sh"
+Path=/PATH/TO/DIR/files
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;

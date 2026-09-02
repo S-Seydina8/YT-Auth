@@ -1,0 +1,17 @@
+# Content generation
+g4f
+requests
+
+# Voiceover + transcription
+edge-tts
+faster-whisper
+
+# Visual assets & assembly
+pillow
+numpy
+moviepy
+
+# YouTube upload
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
