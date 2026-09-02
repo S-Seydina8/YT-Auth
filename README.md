@@ -14,11 +14,6 @@ free tier.
 
 ```
 YT Auth/
-├── README.md                          ← this file
-├── files.zip                          ← stale snapshot of V1 + requirements (CONTAINS LIVE KEYS)
-├── backup/
-│   ├── APIs Keys                      ← plaintext API keys (Pexels, Groq, Freesound)
-│   └── client_secrets.json            ← duplicate of the Google OAuth client
 └── files/                             ← the actual working directory
     ├── yt_shorts_automation_V2.py     ← CURRENT pipeline (37 KB)
     ├── youtube_shorts_automation.py   ← V1, superseded (29 KB)
@@ -37,8 +32,6 @@ YT Auth/
 
 **Note on the structure:** `files/` is the real project root — the launcher, the venv, and
 all relative paths (`output/`, `client_secrets.json`, `token.pickle`) resolve from there.
-The outer `YT Auth/` directory only adds `backup/` and `files.zip`. Both of those are
-duplicate copies of live credentials; see §7.
 
 ---
 
