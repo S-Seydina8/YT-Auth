@@ -23,7 +23,7 @@ YT Auth/
     ├── run_youtube_automation.sh       ← launcher: activates venv, picks newest script
     ├── Start YouTube Automation.desktop ← double-clickable GNOME entry → the .sh
     ├── run youtube automation.txt      ← one-line note holding the run command
-    ├── venv/                          ← 693 MB virtualenv
+    ├── venv/                          ← 693 MB virtualenv to be installed!
     ├── __pycache__/
     └── output/
         ├── final_short.mp4            ← last render (19 MB)
